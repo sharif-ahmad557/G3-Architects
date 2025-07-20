@@ -56,6 +56,20 @@
     border: none;
 
 }
-.banner img{
+.banner .banner-img{
     width: 100%;
 }
+/* responsiv media query  */
+@media screen and (max-width: 570px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+
+}
+.navmenu{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
