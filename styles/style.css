@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* header style */
+.header{
+    background-color: #fff4e6;
+    padding: 0px 50px;
+   
+/* nav bar style */
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+.brand-name{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.navmenu{
+    display: flex;
+    gap: 20px;
+}
+.navmenu .navitem, a{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+    color: #424242;
+}
+/* banner syyle */
+
+.banner-content{
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn-primary{
+    background-color: #ff900e;
+    color: #ffffff;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+
+}
+.banner img{
+    width: 100%;
+}
